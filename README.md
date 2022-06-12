@@ -1,0 +1,1 @@
+# kubernetes_practical_folder
