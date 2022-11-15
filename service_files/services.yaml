@@ -1,0 +1,11 @@
+apiVersion: V1
+kind:  Service
+metadata:
+  name: fleetname-webapp
+spec:
+  app: webapp
+ports:
+ - name: http
+   port: 80
+   noddePort: 30080
+type: NodePort
